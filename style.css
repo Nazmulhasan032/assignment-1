@@ -40,3 +40,138 @@ body{
 	
 	
 }
+
+/* midddle area starts from here */
+
+
+
+.middle-area{
+	margin-top: 50px;
+	overflow: hidden;
+
+}
+.middle-left{
+	width: 50%;
+	float: left;
+	overflow: hidden;
+}
+.middle-left img{
+	hight: 500px;
+	width: 400px;
+	margin-left: 50px;
+}
+.middle-right{
+	width: 50%;
+	margin-top: 100px;
+	float: right;
+	overflow: hidden;
+}
+.middle-right .check{
+	float: left;
+	color: green;
+	margin-right: 8px;
+}
+
+.middle-right ul li{
+	list-style: none;
+}
+.middle-right ul{
+	padding-left: 0;
+}
+.middle-plan{
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+.middle-plan h1{
+		text-align: center;
+		margin: 100px 0;
+
+}
+.middle-skill .content{
+	display: flex;
+
+}
+.web, .java, .smoke{
+	margin-right: 120px;
+	text-align: center;
+}
+.box{
+	border-radius: 8px;
+	margin: 100px 0;
+	height: 250px;
+	background-image: linear-gradient(to right,rgba(255,0,0,1), rgba(255,0,0,0));
+}
+.box h1{
+	padding-top: 40px;
+	padding-left: 40px;
+	color: white;
+	margin: 0;
+}
+.box button{
+	padding: 18px 35px;
+	border-radius: 6px;
+	border-style: none;
+	font-weight: bold;
+	color: orange;
+	margin-left: 40px;
+	margin-top: 20px;
+}
+
+/*footer area starts here */
+.footer-area{
+	padding-top: 100px;
+	height: 400px;
+	background-color: black;
+}
+.footer-area .content{
+	display: flex;
+}
+.footer-left{
+	width: 40%;
+	margin-right: 250px;
+	color: white;
+
+}
+.footer-right h3{
+	color: white;
+}
+.footer-right input{
+	display: block;
+	padding: 15px 50px;
+	border-radius: 6px;
+	background-color: black;
+	border: 1px solid white;
+
+}
+.footer-right button{
+	padding: 15px 35px;
+	font-weight: bold;
+	color: darkorange;
+	background-color: white;
+	border-radius: 6px;
+	border-style: none;
+	margin-top: 10px;
+}
+.personal .content{
+	display: flex;
+}
+.personal-left{
+	margin: 100px 100px;
+
+}
+.personal-right{
+	margin-top: 200px;
+}
+.personal-left img{
+	height: 400px;
+	width: 300px;
+}
+.personal-right table td, th{
+	border: 1px solid black;
+	padding: 12px 12px;
+
+}
+.personal-right table {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
